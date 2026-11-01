@@ -1,0 +1,6 @@
+{
+  "name": "Gold Expert AI",
+  "description": "خبير الذهب الذكي - تطبيق احترافي لفحص المشغولات الذهبية وتحليل الأختام والعيارات بالذكاء الاصطناعي",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

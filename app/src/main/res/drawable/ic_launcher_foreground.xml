@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group>
+        <!-- Gold Bullion / Ingot Base -->
+        <path
+            android:pathData="M32,45 L76,45 L70,68 L38,68 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="32"
+                    android:startY="45"
+                    android:endX="76"
+                    android:endY="68"
+                    android:type="linear">
+                    <item android:color="#FDE047" android:offset="0.0" />
+                    <item android:color="#EAB308" android:offset="0.5" />
+                    <item android:color="#CA8A04" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Ingot Top Facet -->
+        <path
+            android:pathData="M38,36 L70,36 L76,45 L32,45 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="38"
+                    android:startY="36"
+                    android:endX="76"
+                    android:endY="45"
+                    android:type="linear">
+                    <item android:color="#FEF08A" android:offset="0.0" />
+                    <item android:color="#FACC15" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Hallmark Stamp Text Motif (24K) -->
+        <path
+            android:pathData="M48,51 L56,51 L56,53 L51,59 L56,59 L56,61 L48,61 L48,59 L53,53 L48,53 Z"
+            android:fillColor="#854D0E" />
+        <path
+            android:pathData="M59,51 L61,51 L61,55 L65,51 L67,51 L63,55.5 L67,61 L65,61 L61.5,56.5 L61,57 L61,61 L59,61 Z"
+            android:fillColor="#854D0E" />
+
+        <!-- Optical Magnifier Loupe Ring -->
+        <path
+            android:pathData="M49,39 A15,15 0 1,1 48.9,39 Z"
+            android:strokeWidth="3.5"
+            android:strokeColor="#FFFFFF"
+            android:fillColor="#22FFFFFF" />
+
+        <path
+            android:pathData="M49,39 A15,15 0 1,1 48.9,39 Z"
+            android:strokeWidth="2.5"
+            android:strokeColor="#EAB308"
+            android:fillColor="#15EAB308" />
+
+        <!-- Magnifier Loupe Handle -->
+        <path
+            android:pathData="M59.5,49.5 L74,64"
+            android:strokeWidth="5"
+            android:strokeLineCap="round"
+            android:strokeColor="#FEF08A" />
+        <path
+            android:pathData="M60,50 L73,63"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:strokeColor="#CA8A04" />
+
+        <!-- Sparkle Star Top Right -->
+        <path
+            android:pathData="M74,27 Q74,32 79,32 Q74,32 74,37 Q74,32 69,32 Q74,32 74,27 Z"
+            android:fillColor="#FFFFFF" />
+        <path
+            android:pathData="M35,30 Q35,33 38,33 Q35,33 35,36 Q35,33 32,33 Q35,33 35,30 Z"
+            android:fillColor="#FDE047" />
+    </group>
+</vector>
